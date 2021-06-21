@@ -29,6 +29,7 @@ header {
 }
 li {
   list-style: none;
+  padding: 10px;
 
 
 }
@@ -132,14 +133,13 @@ a {
   height: 600px;
 }
 .about-box {
-  position: relative;
+  display: flex;
+  justify-content: space-around;
+
 }
 .about-box-img {
   width: 30%;
   height: 300px;
-  position: absolute;
-  top: 40px;
-  right: 200px;
 }
 .about-box-img img {
   width: 100%;
@@ -148,9 +148,6 @@ a {
 }
 .about-box-text {
   color: #696969;
-  position: absolute;
-  top: 40px;
-  left: 200px;
   font-size: 16px;
   line-height: 30px;
 }
