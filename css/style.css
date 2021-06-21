@@ -179,10 +179,7 @@ a {
   width: 100%;
 
 }
-.service-content {
-  width: 80%;
-  height: 80%;
-}
+
 .service-title {
   margin-left: 10%;
 }
@@ -211,9 +208,9 @@ a {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  height: 80%;
-  width: 100%;
-  margin: 40px 10%;
+  height: 60%;
+  width: 80%;
+  margin: 0 10%;
 }
 .box1 {
   grid-column: 1/2;
