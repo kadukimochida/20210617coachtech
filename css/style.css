@@ -181,8 +181,9 @@ a {
   justify-content: center;
 }
 .service-content {
-  height: 300px;
-  width: 900px;
+  width: 80%;
+  height: 80%;
+  margin: 40px 10% 10% 5%;
 }
 .box-img1 {
   width: 100%;
@@ -212,6 +213,7 @@ a {
   height: 80%;
   width: 100%;
 
+
 }
 .box1 {
   grid-column: 1/2;
@@ -223,6 +225,7 @@ a {
 .box1 h3 {
   text-align: center;
   font-size: 25px;
+  margin:0 0 10px 0;
 }
 .box1 p {
   margin: 20px 40px;
